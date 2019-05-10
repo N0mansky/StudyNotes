@@ -3,14 +3,15 @@ from utils.util import crt_links
 
 
 def reverse_link(head):
-    nx = head.pt
-    head.pt = None
-    while nx:
-        tmp = nx.pt
-        nx.pt = head
-        head = nx
-        nx = tmp
-    return head
+    pre = head
+    curr = head.pt
+    pre.pt = None
+    while curr:
+        tmp = curr.pt   # Stored next nodes point
+        curr.pt = pre  # Set previous nodes to current node's pt
+        pre = curr     # Set curr node as previous node
+        curr = tmp      # Set next node as current 
+    return pre
 
 
 class TestLink(unittest.TestCase):
