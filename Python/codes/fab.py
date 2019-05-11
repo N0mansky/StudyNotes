@@ -27,6 +27,14 @@ def fab(max):
         n+=1
         yield a
 
+def fibonacci(n):
+    if n < 2:
+        return n
+    a,b = 0,1
+    for x in range(n):
+        a,b = b,a+b
+    return a
+
 class TestFab(unittest.TestCase):
 
     expect = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
@@ -42,4 +50,5 @@ class TestFab(unittest.TestCase):
         self.assertEqual(data,self.expect)
 
 if __name__ == '__main__':
+    print(fibonacci(2))
     unittest.main()
