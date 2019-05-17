@@ -1,2 +1,2 @@
-# StudyNotes
+## StudyNotes
 Recording notes in studying
