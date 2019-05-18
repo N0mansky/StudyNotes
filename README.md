@@ -2,6 +2,7 @@
 ## StudyNotes
 Recording notes in studying
 ### 文档目录结构
+```
 .
 ├── Python
 │   ├── codes
@@ -14,7 +15,9 @@ Recording notes in studying
 └── datastruct
     ├── Data Structure mind mapping.xmind
     └── code
+```
 #### Python目录
+```
 ├── codes
 │   ├── anagram.py
 │   ├── ...
@@ -27,6 +30,7 @@ Recording notes in studying
     ├── middle_ware.py
     ├── post_req.py
     └── query_parse.py
+```
 1. codes目录包括python完成的一些算法题目
 2. 剑指offer记录了牛客网结题的答案
 3. wsig目录记录了学习wsgi编写的一些代码
