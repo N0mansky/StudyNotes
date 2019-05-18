@@ -5,7 +5,9 @@ Table of Contents
       * [Python目录](#python目录) 
       * [algorithm](#algorithm)
       * [datastruct](#datastruct)
-=================
+
+---
+
 ## StudyNotes
 Recording notes in studying
 ### 文档目录结构
