@@ -1,8 +1,9 @@
-* [StudyNotes](#studynotes)
-         * [文档目录结构](#文档目录结构)
-            * [Python目录](#python目录)
-            * [algorithm](#algorithm)
-            * [datastruct](#datastruct)
+
+* [StudyNotes](#studynotes)                                                                       
+   * [文档目录结构](#文档目录结构) 
+      * [Python目录](#python目录) 
+      * [algorithm](#algorithm)
+      * [datastruct](#datastruct)
 ## StudyNotes
 Recording notes in studying
 ### 文档目录结构
