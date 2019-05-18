@@ -6,8 +6,6 @@ Table of Contents
       * [algorithm](#algorithm)
       * [datastruct](#datastruct)
 
-=================
-
 ## StudyNotes
 Recording notes in studying
 ### 文档目录结构
