@@ -6,7 +6,7 @@ Table of Contents
       * [algorithm](#algorithm)
       * [datastruct](#datastruct)
 
----
+=================
 
 ## StudyNotes
 Recording notes in studying
