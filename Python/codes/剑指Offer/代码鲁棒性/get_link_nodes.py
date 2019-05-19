@@ -1,4 +1,5 @@
 from utils.util import crt_links
+
 """
 Get the specified count backward link node
 原题:输入一个链表，输出该链表中倒数第k个结点。

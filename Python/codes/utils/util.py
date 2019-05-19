@@ -8,7 +8,7 @@ def crt_links(start, end):
     curr = head
     for x in range(start + 1, end + 1):
         tmp = LinkNode(x, None)
-        curr.pt = tmp
+        curr.next = tmp
         curr = tmp
     return head
 

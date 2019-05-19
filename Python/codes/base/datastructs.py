@@ -1,7 +1,16 @@
 class LinkNode(object):
-    def __init__(self, val=None, pt=None):
+    def __init__(self, val=None, next=None):
         self.val = val
-        self.pt = pt
+        self.next = next
+
+    def __str__(self):
+        rst = ''
+        while self:
+            rst += str(self.val)
+            rst += '->'
+            self = self.next
+        rst += 'None'
+        return rst
 
 
 class BinTree(object):
