@@ -37,3 +37,5 @@ Status DeQueue(SqQueue *Q,QElemType *e){
     Q->front = (Q->front+1)%MAXSIZE;
     return OK;
 }
+
+
