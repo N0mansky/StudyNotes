@@ -1,17 +1,5 @@
 import math
 
-
-def shell_sort(lists):
-    gap = count = len(lists)
-    while gap > 1:
-        gap = gap // 3 + 1
-        for i in range(0, count, gap):
-            for j in range(i + gap, count, gap):
-                if lists[j] < lists[i]:
-                    lists[i], lists[j] = lists[j], lists[i]
-    return lists
-
-
 def select_sort(lists):
     count = len(lists)
     for i in range(count - 1):
@@ -21,8 +9,6 @@ def select_sort(lists):
                 min = j
         lists[i], lists[min] = lists[min], lists[i]
     return lists
-
-
 
 
 # Big heap of root
