@@ -18,3 +18,19 @@ class BinTree(object):
         self.val = val
         self.left = left
         self.right = right
+
+
+class RandomListNode(LinkNode):
+    def __init__(self, val=None, next=None):
+        self.label = val
+        self.next = next
+        self.random = None
+
+    def __str__(self):
+        rst = ''
+        while self:
+            rst += str(self.label)
+            rst += '->'
+            self = self.next
+        rst += 'None'
+        return rst

@@ -1,5 +1,5 @@
 import unittest
-from base.datastructs import LinkNode
+from base.datastructs import *
 from base.datastructs import BinTree
 
 
@@ -8,6 +8,16 @@ def crt_links(start, end):
     curr = head
     for x in range(start + 1, end + 1):
         tmp = LinkNode(x, None)
+        curr.next = tmp
+        curr = tmp
+    return head
+
+
+def crt_random_linklist(start, end):
+    head = RandomListNode(start)
+    curr = head
+    for x in range(start + 1, end + 1):
+        tmp = RandomListNode(x, None)
         curr.next = tmp
         curr = tmp
     return head
