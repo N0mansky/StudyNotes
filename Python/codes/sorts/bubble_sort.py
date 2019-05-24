@@ -17,7 +17,6 @@ def bubble_sort(array):
                 array[j], array[j - 1] = array[j - 1], array[j]
     return array
 
-
 if __name__ == '__main__':
     exp = random.sample(range(100),100)
     rst = bubble_sort(exp)
