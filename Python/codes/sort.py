@@ -1,16 +1,5 @@
 import math
 
-def select_sort(lists):
-    count = len(lists)
-    for i in range(count - 1):
-        min = i
-        for j in range(i, count):
-            if lists[j] < lists[min]:
-                min = j
-        lists[i], lists[min] = lists[min], lists[i]
-    return lists
-
-
 # Big heap of root
 def heap_sort(lists):
     def build_head(lists, size):

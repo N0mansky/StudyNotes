@@ -24,5 +24,6 @@ def insert_sort(array):
 
 if __name__ == '__main__':
     exp = random.sample(range(100), 100)
+    expect = [x for x in range(100)]
     rst = insert_sort(exp)
-    print(rst)
+    assert exp == expect
