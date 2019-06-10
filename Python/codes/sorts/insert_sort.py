@@ -15,7 +15,7 @@ def insert_sort(array):
         j = x - 1
         while j > -1:
             if key < array[j]:
-                array[j+1],array[j] =  array[j],key
+                array[j + 1], array[j] = array[j], key
                 j -= 1
             else:
                 break
